@@ -16,7 +16,6 @@ public class CitasController {
         int id = 0;
         do {
             id = Validador.leerEnteroMayor0("Introduzca el ID del usuario");
-            System.out.println("id:" + id + ", " + centro.verificarExiste(id));
 
             if (!centro.verificarExiste(id)) {
                 System.out.println(
